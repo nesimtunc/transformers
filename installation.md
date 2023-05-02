@@ -6,7 +6,7 @@ Install the [Anaconda distribution](https://www.anaconda.com/products/individual
 
 1. Download the [environment.yaml](https://github.com/jamescalam/transformers/blob/main/environment.yaml) for the course.
 
-2. In *Anaconda prompt*, navigate to the directory containing the *environment.yaml* and write `conda env create -f environment.yaml` 
+2. In *Anaconda prompt*, navigate to the directory containing the *environment.yaml* and write `conda env create -f environment.yaml -n ml` 
 
 3. Activate the new environment with `conda activate ml`
 
@@ -16,7 +16,7 @@ Install the [Anaconda distribution](https://www.anaconda.com/products/individual
 
 [See here](https://towardsdatascience.com/how-to-setup-python-for-machine-learning-173cb25f0206?sk=8e25eb341c8910209ff683071650c180) for more detailed guide of steps 1-2, 5-7.
 
-1. Create a new Python environment with `conda create -n ml python=3.8.5 anaconda`
+1. Create a new Python environment with `CONDA_SUBDIR=osx-arm64 conda create -n ml python=3.9 -c conda-forge && conda env config vars set CONDA_SUBDIR=osx-arm64`
 
 2. Activate the new environment with `conda activate ml`
 
