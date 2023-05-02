@@ -6,9 +6,9 @@ Install the [Anaconda distribution](https://www.anaconda.com/products/individual
 
 1. Download the [environment.yaml](https://github.com/jamescalam/transformers/blob/main/environment.yaml) for the course.
 
-2. In *Anaconda prompt*, navigate to the directory containing the *environment.yaml* and write `conda env create -f environment.yaml`.
+2. In *Anaconda prompt*, navigate to the directory containing the *environment.yaml* and write `conda env create -f environment.yaml` 
 
-3. Activate the new environment with `conda activate ml`.
+3. Activate the new environment with `conda activate ml`
 
 4. Move onto the **Installation of PyTorch** section.
 
@@ -16,13 +16,13 @@ Install the [Anaconda distribution](https://www.anaconda.com/products/individual
 
 [See here](https://towardsdatascience.com/how-to-setup-python-for-machine-learning-173cb25f0206?sk=8e25eb341c8910209ff683071650c180) for more detailed guide of steps 1-2, 5-7.
 
-1. Create a new Python environment with `conda create -n ml python=3.8.5 anaconda`.
+1. Create a new Python environment with `conda create -n ml python=3.8.5 anaconda`
 
-2. Activate the new environment with `conda activate ml`.
+2. Activate the new environment with `conda activate ml`
 
 3. Navigate to directory containing the *requirements.txt* of this repository ([here](https://github.com/jamescalam/transformers/blob/main/requirements.txt)).
 
-4. Write `pip install -r requirements.txt`.
+4. Write `pip install -r requirements.txt`
 
 5. Move onto the **Installation of PyTorch** section.
 
@@ -52,7 +52,7 @@ If you have a CUDA enabled GPU, you can take advantage of GPU acceleration. If y
 
 Once your environment is setup, it can be added as a kernel to Jupyter lab/notebook by:
 
-1. In *Anaconda prompt* write `conda active ml`.
+1. In *Anaconda prompt* write `conda active ml`
 
 2. Then write `python -m ipykernel install --user --name ml --display-name "ML"`
 
